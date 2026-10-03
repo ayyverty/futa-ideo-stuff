@@ -1,5 +1,6 @@
 using System.Reflection;
 using HarmonyLib;
+using rjw;
 using RimWorld;
 using Verse;
 
@@ -86,6 +87,21 @@ namespace RJWFuta
 		static void Postfix(Ideo __result)
 		{
 			HarmonyPatches.TryAddFutaStandingPrecept(__result);
+		}
+	}
+
+	/// <summary>
+	/// Enlarges futanari genitals once RJW has finished sexualizing a pawn.
+	/// Patching CompRJW.Sexualize rather than the pawn generator guarantees the
+	/// parts already exist, whatever order the two postfixes run in. RJW's own
+	/// guard makes this fire only on a pawn's first sexualization.
+	/// </summary>
+	[HarmonyPatch(typeof(CompRJW), nameof(CompRJW.Sexualize))]
+	public static class Patch_CompRJW_Sexualize
+	{
+		static void Postfix(CompRJW __instance)
+		{
+			FutaPenisSize.EnlargePenises(__instance.parent as Pawn);
 		}
 	}
 }

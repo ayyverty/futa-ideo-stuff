@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Futanari standing vs futanari supremacy. Vanilla has no precept against
+       meme goodwill worker, so both directions use the mod's own workers: one
+       side is checked for the Hated standing precept, the other for the meme.
+       Ideology evaluates goodwill from the player's faction perspective, hence
+       one def per direction rather than a single symmetric pair. -->
+
+  <GoodwillSituationDef>
+    <defName>RJWFuta_FutaStanding_HatedVsSupremacy</defName>
+    <label>hates futanari supremacy</label>
+    <workerClass>RJWFuta.GoodwillSituationWorker_FutaStanding</workerClass>
+    <naturalGoodwillOffset>-30</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
+  <GoodwillSituationDef>
+    <defName>RJWFuta_FutaStanding_SupremacyVsHated</defName>
+    <label>futanari supremacy vs futanari haters</label>
+    <workerClass>RJWFuta.GoodwillSituationWorker_FutaStandingReversed</workerClass>
+    <naturalGoodwillOffset>-30</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
+</Defs>
