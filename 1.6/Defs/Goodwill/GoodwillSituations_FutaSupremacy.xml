@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Diplomacy. Reuses the vanilla GoodwillSituationWorker_MemeCompatibility
+       so no custom code is needed. -->
+
+  <GoodwillSituationDef>
+    <defName>RJWFuta_FutaSupremacy_Self</defName>
+    <label>futanari supremacy vs itself</label>
+    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+    <meme>RJWFuta_FutanariSupremacy</meme>
+    <otherMeme>RJWFuta_FutanariSupremacy</otherMeme>
+    <naturalGoodwillOffset>10</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
+  <GoodwillSituationDef>
+    <defName>RJWFuta_FutaSupremacy_MaleSupremacy</defName>
+    <label>futanari supremacy vs male supremacy</label>
+    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+    <meme>RJWFuta_FutanariSupremacy</meme>
+    <otherMeme>MaleSupremacy</otherMeme>
+    <naturalGoodwillOffset>-30</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
+  <GoodwillSituationDef>
+    <defName>RJWFuta_FutaSupremacy_FemaleSupremacy</defName>
+    <label>futanari supremacy vs female supremacy</label>
+    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+    <meme>RJWFuta_FutanariSupremacy</meme>
+    <otherMeme>FemaleSupremacy</otherMeme>
+    <naturalGoodwillOffset>-30</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
+  <GoodwillSituationDef>
+    <defName>RJWFuta_FutaSupremacy_Individualist</defName>
+    <label>futanari supremacy vs individualist</label>
+    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+    <meme>RJWFuta_FutanariSupremacy</meme>
+    <otherMeme>Individualist</otherMeme>
+    <naturalGoodwillOffset>-20</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
+  <GoodwillSituationDef>
+    <defName>RJWFuta_FutaSupremacy_Transhumanist</defName>
+    <label>futanari supremacy vs transhumanist</label>
+    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+    <meme>RJWFuta_FutanariSupremacy</meme>
+    <otherMeme>Transhumanist</otherMeme>
+    <naturalGoodwillOffset>-10</naturalGoodwillOffset>
+  </GoodwillSituationDef>
+
+</Defs>

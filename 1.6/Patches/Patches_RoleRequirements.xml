@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!-- Apply the futanari requirement to every vanilla ideology role, both the
+       single-holder and multi-holder bases. Because these are the abstract
+       parents, all concrete roles (including IdeoRole_Leader) inherit it.
+       The requirement self-disables when the meme is absent. -->
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>//PreceptDef[@Name='PreceptRoleSingleBase']/roleRequirements</xpath>
+    <value>
+      <li Class="RJWFuta.RoleRequirement_Futa" />
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>//PreceptDef[@Name='PreceptRoleMultiBase']/roleRequirements</xpath>
+    <value>
+      <li Class="RJWFuta.RoleRequirement_Futa" />
+    </value>
+  </Operation>
+
+</Patch>

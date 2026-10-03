@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Name generator for the Ascended role. Referenced by the role's
+       <nameMaker>. Uses tokens supplied by the meme's generalRules and
+       symbolPacks. -->
+
+  <RulePackDef>
+    <defName>NamerRoleAscended</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_roleName(p=6)-&gt;[firstPart][secondPart]</li>
+        <li>r_roleName(p=3)-&gt;[memeLeaderNoun] [secondPart]</li>
+        <li>r_roleName(p=2)-&gt;[memeAdjective] [firstPart]</li>
+        <li>r_roleName-&gt;[secondPart] of [memeConcept]</li>
+        <li>r_roleName-&gt;[secondPart] of [chosenTheme]</li>
+        <li>r_roleName-&gt;[memeLeaderNoun] of [chosenIdeoName]</li>
+        <li>firstPart-&gt;futa</li>
+        <li>firstPart-&gt;gyn</li>
+        <li>firstPart-&gt;phallo</li>
+        <li>firstPart-&gt;ambro</li>
+        <li>firstPart-&gt;hermaphr</li>
+        <li>firstPart-&gt;androgy</li>
+        <li>secondPart-&gt;ascend</li>
+        <li>secondPart-&gt;risen</li>
+        <li>secondPart-&gt;chosen</li>
+        <li>secondPart-&gt;prime</li>
+        <li>secondPart-&gt;apotheos</li>
+        <li>secondPart-&gt;anoint</li>
+        <li>secondPart-&gt;firstborn</li>
+        <li>secondPart-&gt;master</li>
+        <li>secondPart-&gt;crown</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

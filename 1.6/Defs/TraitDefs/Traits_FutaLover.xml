@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Futa Lover. Pawns with this trait feel a personal fondness for futanari
+       and receive a positive social opinion toward them, regardless of their
+       ideology. It also exempts them from the Futanari standing precept. -->
+
+  <TraitDef>
+    <defName>RJWFuta_FutaLover</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>futa lover</label>
+        <description>{PAWN_nameDef} feels a deep fondness for futanari and sees them as ideal partners and friends.</description>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+</Defs>

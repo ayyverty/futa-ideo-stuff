@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Perfect Form: tied to the FutanariSupremacy meme itself, no precept
+       required. Futanari believers feel pride in their own form, and all
+       believers respect those who hold it. -->
+
+  <ThoughtDef>
+    <defName>RJWFuta_Mood_FutaPride</defName>
+    <thoughtClass>Thought_Situational</thoughtClass>
+    <workerClass>RJWFuta.ThoughtWorker_Meme_SelfFutaPride</workerClass>
+    <stages>
+      <li>
+        <label>Perfect Form</label>
+        <description>I am the perfect union of masculine and feminine.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>RJWFuta_Opinion_FutaPride</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>RJWFuta.ThoughtWorker_Meme_Social_OtherFutaPride</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>Perfect Form</label>
+        <description>They are the perfect union of masculine and feminine.</description>
+        <baseOpinionOffset>6</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Futanari standing precept thoughts. The same worker drives both the
+       Hated and Approved variants; only the thought value differs. -->
+
+  <ThoughtDef>
+    <defName>RJWFuta_Mood_FutanariHated</defName>
+    <thoughtClass>Thought_Situational</thoughtClass>
+    <workerClass>RJWFuta.ThoughtWorker_Precept_Mood_FutaStanding</workerClass>
+    <stages>
+      <li>
+        <label>futanari presence</label>
+        <description>There are futanari among us. I cannot stand to look at them.</description>
+        <baseMoodEffect>-8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>RJWFuta_Mood_FutanariApproved</defName>
+    <thoughtClass>Thought_Situational</thoughtClass>
+    <workerClass>RJWFuta.ThoughtWorker_Precept_Mood_FutaStanding</workerClass>
+    <stages>
+      <li>
+        <label>futanari presence</label>
+        <description>There are futanari among us, and I am glad of it.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>RJWFuta_Opinion_FutanariHated</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>RJWFuta.ThoughtWorker_Precept_Social_FutaStanding</workerClass>
+    <stages>
+      <li>
+        <label>futanari</label>
+        <description>They are futanari, and I find them repulsive.</description>
+        <baseOpinionOffset>-15</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>RJWFuta_Opinion_FutanariApproved</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>RJWFuta.ThoughtWorker_Precept_Social_FutaStanding</workerClass>
+    <stages>
+      <li>
+        <label>futanari</label>
+        <description>They are futanari, and I respect them for it.</description>
+        <baseOpinionOffset>8</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Futa Lover trait: a personal fondness for futanari, independent of any
+       ideology. Pawns with this trait are exempt from the standing precept's
+       effects but keep this opinion boost. -->
+
+  <ThoughtDef>
+    <defName>RJWFuta_Opinion_FutaLover</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>RJWFuta.ThoughtWorker_TraitSocial_FutaLover</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>futanari</label>
+        <description>They are futanari, and I adore them for it.</description>
+        <baseOpinionOffset>10</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

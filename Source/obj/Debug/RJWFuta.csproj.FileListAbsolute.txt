@@ -1,0 +1,5 @@
+/home/avery/Projects/rjw-futa-stuff/1.6/Assemblies/RJWFuta.dll
+/home/avery/Projects/rjw-futa-stuff/Source/obj/Debug/RJWFuta.csproj.AssemblyReference.cache
+/home/avery/Projects/rjw-futa-stuff/Source/obj/Debug/RJWFuta.GeneratedMSBuildEditorConfig.editorconfig
+/home/avery/Projects/rjw-futa-stuff/Source/obj/Debug/RJWFuta.csproj.CoreCompileInputs.cache
+/home/avery/Projects/rjw-futa-stuff/Source/obj/Debug/RJWFuta.dll

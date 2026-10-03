@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- A dedicated ideo colour for the meme, so it reads as a distinct
+       supremacist ideology in the picker and in the ideology tab.
+       DarkPurple is unused by any vanilla meme; Purple and Pink are already
+       taken by FemaleSupremacy, so they are deliberately avoided here. -->
+  <IdeoColorDef>
+    <defName>RJWFuta_DarkPurple</defName>
+    <colorDef>DarkPurple</colorDef>
+    <memes>
+      <li>RJWFuta_FutanariSupremacy</li>
+    </memes>
+  </IdeoColorDef>
+
+</Defs>

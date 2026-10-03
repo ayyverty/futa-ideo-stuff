@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- The standing of futanari within an ideology. Every generated ideology
+       receives this precept as Hated by default (FutanariSupremacy ideologies
+       are exempt and rely on the meme's own Perfect Form effects instead).
+       Players may change it to Neutral or Approved in the ideo editor. -->
+
+  <!-- Issue -->
+
+  <IssueDef>
+    <defName>RJWFuta_FutanariStanding</defName>
+    <label>futanari standing</label>
+    <iconPath>UI/Issues/FutaStanding</iconPath>
+  </IssueDef>
+
+  <!-- Precepts -->
+
+  <PreceptDef>
+    <defName>RJWFuta_Futanari_Hated</defName>
+    <issue>RJWFuta_FutanariStanding</issue>
+    <label>hated</label>
+    <description>Futanari are a corruption of the natural order. Their presence is a blight on any community, and believers recoil from them.</description>
+    <impact>Low</impact>
+    <displayOrderInIssue>10</displayOrderInIssue>
+    <displayOrderInImpact>100</displayOrderInImpact>
+    <comps>
+      <li Class="PreceptComp_SituationalThought">
+        <thought>RJWFuta_Mood_FutanariHated</thought>
+      </li>
+      <li Class="PreceptComp_SituationalThought">
+        <thought>RJWFuta_Opinion_FutanariHated</thought>
+      </li>
+    </comps>
+  </PreceptDef>
+
+  <PreceptDef>
+    <defName>RJWFuta_Futanari_Neutral</defName>
+    <issue>RJWFuta_FutanariStanding</issue>
+    <label>neutral</label>
+    <description>Futanari are simply one more way of being. Believers neither welcome nor shun them.</description>
+    <displayOrderInIssue>20</displayOrderInIssue>
+    <displayOrderInImpact>100</displayOrderInImpact>
+  </PreceptDef>
+
+  <PreceptDef>
+    <defName>RJWFuta_Futanari_Approved</defName>
+    <issue>RJWFuta_FutanariStanding</issue>
+    <label>approved</label>
+    <description>Futanari are a welcome addition to any community, and believers are glad to have them near.</description>
+    <impact>Low</impact>
+    <displayOrderInIssue>30</displayOrderInIssue>
+    <displayOrderInImpact>100</displayOrderInImpact>
+    <comps>
+      <li Class="PreceptComp_SituationalThought">
+        <thought>RJWFuta_Mood_FutanariApproved</thought>
+      </li>
+      <li Class="PreceptComp_SituationalThought">
+        <thought>RJWFuta_Opinion_FutanariApproved</thought>
+      </li>
+    </comps>
+  </PreceptDef>
+
+</Defs>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- The Ascended: an optional futanari rank of recognition.
+       Futa-only by virtue of the RoleRequirement_Futa, and unlocked only
+       when the ideology actually contains the futanari supremacy meme.
+       Carries no abilities, no apparel, no skill gate and no work
+       restrictions - only two stat rewards. -->
+
+  <PreceptDef ParentName="PreceptRoleMultiBase">
+    <defName>RJWFuta_IdeoRole_Ascended</defName>
+    <label>ascended</label>
+    <description>A rank of recognition held by the futanari believers who have most fully lived up to the ideal form. Those who hold it work with a little more speed and carry a little more weight in any room they walk into. It confers no duty and forbids nothing.</description>
+    <iconPath>UI/Roles/Ascended</iconPath>
+    <nameMaker>NamerRoleAscended</nameMaker>
+    <roleRequirements>
+      <li Class="RJWFuta.RoleRequirement_Futa" />
+    </roleRequirements>
+    <requiredMemes>
+      <li>RJWFuta_FutanariSupremacy</li>
+    </requiredMemes>
+    <roleEffects>
+      <li Class="RoleEffect_PawnStatFactor">
+        <statDef>SocialImpact</statDef>
+        <modifier>1.25</modifier>
+      </li>
+      <li Class="RoleEffect_PawnStatOffset">
+        <statDef>WorkSpeedGlobal</statDef>
+        <modifier>0.1</modifier>
+      </li>
+    </roleEffects>
+    <displayOrderInImpact>2</displayOrderInImpact>
+  </PreceptDef>
+
+</Defs>

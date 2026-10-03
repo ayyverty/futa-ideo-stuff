@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Futanari Supremacy meme. Mutually exclusive with Male/Female Supremacy
+       via the shared GenderSupremacy exclusion tag. -->
+
+  <MemeDef>
+    <defName>RJWFuta_FutanariSupremacy</defName>
+    <label>futanari supremacy</label>
+    <description>Futanari are the ultimate form and should rule above all others.</description>
+    <iconPath>UI/Memes/FutanariSupremacy</iconPath>
+    <groupDef>GenderSupremacy</groupDef>
+    <exclusionTags>
+      <li>GenderSupremacy</li>
+    </exclusionTags>
+    <impact>2</impact>
+
+    <generalRules>
+      <rulesStrings>
+        <li>memeAdjective-&gt;perfect</li>
+        <li>memeAdjective-&gt;whole</li>
+        <li>memeAdjective-&gt;complete</li>
+        <li>memeHyphenPrefix-&gt;futa</li>
+        <li>memeHyphenPrefix-&gt;gyn</li>
+        <li>memeHyphenPrefix-&gt;phallo</li>
+        <li>memeHyphenPrefix-&gt;ambro</li>
+        <li>memeConcept-&gt;perfection</li>
+        <li>memeConcept-&gt;wholeness</li>
+        <li>memeConcept-&gt;the perfected body</li>
+        <li>memeConcept-&gt;unity of form</li>
+        <li>memeGod-&gt;Progenitor</li>
+        <li>memeGod-&gt;Source</li>
+        <li>memeLeaderNoun-&gt;futa</li>
+        <li>memeLeaderNoun-&gt;ascendant</li>
+        <li>memeLeaderNoun-&gt;first</li>
+        <li>memeLeaderNoun-&gt;prime</li>
+      </rulesStrings>
+    </generalRules>
+
+    <descriptionMaker>
+      <rules>
+        <rulesStrings>
+          <!-- theist myth -->
+          <li>creation(tag=meme_RJWFuta_FutanariSupremacy)       -&gt;[deity0_name] made two, and then made of the two a third, and declared that the third was the one who would carry the work forward. Those who split the form back into halves were told it was error, not law.</li>
+          <li>episode(uses=1,tag=meme_RJWFuta_FutanariSupremacy) -&gt;[deity0_name] set the two apart from one another and left a space between them, and the space filled, and what stood there was whole. The believers wept at the completeness of it.</li>
+          <!-- ideological founder -->
+          <li>setup(tag=meme_RJWFuta_FutanariSupremacy)           -&gt;[founderName] grew tired of watching people squabble over which half of themselves was allowed to be the real one. So [founderName] built a doctrine that honours the whole, and gathered those who agreed.</li>
+          <li>story(uses=1,tag=meme_RJWFuta_FutanariSupremacy)    -&gt;A crowd asked [founderName] what happened to the ones who would never attain the form. [founderName] told them the door was open, and that the walk up it was the only duty that mattered.</li>
+          <!-- ideological lesson -->
+          <li>lessonIntro(tag=meme_RJWFuta_FutanariSupremacy)      -&gt;I spent years being asked to choose between two things I was equally willing to be, and I never once thought to ask why I had to choose.</li>
+          <li>lesson(tag=meme_RJWFuta_FutanariSupremacy)           -&gt;the perfected form is the natural state, and those who have attained it are the natural rulers</li>
+          <li>lessonReinforcement(tag=meme_RJWFuta_FutanariSupremacy)-&gt;Nobody is mocked for standing at the bottom of the road. They are only mocked for claiming to be at the top of it.</li>
+          <!-- archist -->
+          <li>archistBasis(tag=meme_RJWFuta_FutanariSupremacy)     -&gt;The archotechs did not choose to be what they are any more than the body chooses to be whole, and they have never seen a reason to prize one half of a thing over the other.</li>
+          <li>archistFact(tag=meme_RJWFuta_FutanariSupremacy)      -&gt;The archotechs, who are neither wholly one thing nor wholly another, have quietly outbuilt both of the sexes that argued over which of them was real.</li>
+          <li>archistProphecy(tag=meme_RJWFuta_FutanariSupremacy)  -&gt;[inTheEnd], the archotechs will unmake the distinction entirely, and the last argument between the sexes will be remembered as a very small argument.</li>
+          <!-- animist -->
+          <li>animistFact(tag=meme_RJWFuta_FutanariSupremacy)      -&gt;The oldest spirits take no side between the halves, and are honoured best by the whole, which is why the greatest offerings are made by those who can offer both.</li>
+          <li>animistProphecy(tag=meme_RJWFuta_FutanariSupremacy)  -&gt;[itIsSaid] that a great spirit waits at the top of the road of attainment, and will answer to whoever arrives there first, of either sex.</li>
+        </rulesStrings>
+      </rules>
+    </descriptionMaker>
+
+    <symbolPacks>
+      <li>
+        <ideoName>Futanism</ideoName>
+        <theme>futa</theme>
+        <adjective>futanist</adjective>
+        <member>futanist</member>
+      </li>
+      <li>
+        <ideoName>Perfectism</ideoName>
+        <theme>perfection</theme>
+        <adjective>perfectist</adjective>
+        <member>perfectist</member>
+      </li>
+      <li>
+        <ideoName>Ascensionism</ideoName>
+        <theme>ascension</theme>
+        <adjective>ascensionist</adjective>
+        <member>ascensionist</member>
+      </li>
+      <li>
+        <ideoName>Holism</ideoName>
+        <theme>wholeness</theme>
+        <adjective>holist</adjective>
+        <member>holist</member>
+      </li>
+    </symbolPacks>
+  </MemeDef>
+
+</Defs>

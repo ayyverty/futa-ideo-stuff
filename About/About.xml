@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Futa Ideo Stuff</name>
+  <author>toasterbath</author>
+  <packageId>toast.FutanariSupremacy</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <modVersion>1.6.1.0</modVersion>
+  <description><![CDATA[
+Adds a Futanari Supremacy ideology meme for RimWorld 1.6.
+
+Futanari are the ultimate form and should rule above all others.
+
+The meme is mutually exclusive with Male Supremacy and Female Supremacy.
+
+While a believer's ideology contains this meme, only futanari may hold any
+ideology role - including the vanilla leader role. Futanari additionally
+receive a mood boost and inspire positive social opinion.
+
+Also adds the "Ascended" role, an optional futanari rank of recognition
+granting improved social impact and work speed.
+
+Requires Ideology and RimJobWorld.
+]]></description>
+  <modDependencies>
+    <li>
+      <packageId>Ludeon.RimWorld.Ideology</packageId>
+      <displayName>Ideology</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/1149648035</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>rim.job.world</packageId>
+      <displayName>RimJobWorld</displayName>
+      <downloadUrl>https://gitgud.io/Ed86/rjw</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>Ludeon.RimWorld.Ideology</li>
+    <li>rim.job.world</li>
+  </loadAfter>
+</ModMetaData>
